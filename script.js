@@ -15,15 +15,15 @@ trigger.addEventListener("click", () => {
     let destination = destinationZone.value;
 
     // Check destination
-    if (destination === "ibadan") {
+    if (destination == "ibadan") {
         baseCost += 5000;
     }
 
-    if (destination === "lagos") {
+    if (destination == "lagos") {
         baseCost += 1000;
     }
 
-    if (destination === "abeokuta") {
+    if (destination == "abeokuta") {
         baseCost += 3000;
     }
 
