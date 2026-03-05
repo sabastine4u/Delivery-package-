@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+IN+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+     <div class="container">
+      <h2>Package Delivery</h2>
+      <label for="#">Enter  Destination :</label>
+        <select name="" id="destination" required> 
+          <option value="">-- Select Destination --</option>
+          <option value="ibadan">ibadan</option>
+          <option value="lagos">lagos</option>
+          <option value="abeokuta">abeokuta</option>
+        </select>
+        <label for="#">Enter Weight :</label>
+        <input type="number" id="weight" required>
+        <input type="checkbox" name="" id="checkbox" required>
+        <label for="checkbox">Express Delivery</label>
+        <button type="button" id="btn">submit</button>
+        <p id="summaryText"></p>
+     </div>
+    <script defer type="text/javascript" src="script.js"></script>
+  </body>
+</html>
